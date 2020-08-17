@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/postgresDS"
+        url="jdbc:postgresql://localhost:5432/postgres?autoReconnect=true"
+        driverClassName="org.postgresql.Driver" 
+        auth="Container" 
+        type="javax.sql.DataSource"
+        username="postgres"
+        password="admin"
+        dontTrackOpenResources="true"
+		testWhileIdle="true"
+		timeBetweenEvictionRunsMillis="300000" />
+</Context>
+
+
